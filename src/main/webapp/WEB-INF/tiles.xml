@@ -17,4 +17,12 @@
         <put-attribute name="title" value="Them Hoat Dong" />
         <put-attribute name="content" value="/WEB-INF/jsp/addExpense.jsp" />
     </definition>
+    <definition name="listexpense" extends="baseLayout">
+        <put-attribute name="title" value="Danh Sach Chi Tieu" />
+        <put-attribute name="content" value="/WEB-INF/jsp/listExpense.jsp" />
+    </definition>
+    <definition name="addgroup" extends="baseLayout">
+        <put-attribute name="title" value="Them Nhom" />
+        <put-attribute name="content" value="/WEB-INF/jsp/addGroup.jsp" />
+    </definition>
 </tiles-definitions>

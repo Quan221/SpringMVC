@@ -15,6 +15,14 @@ public class HomePageController {
     public String homePage2(){
         return "addexpense";
     }
+    @RequestMapping("/list")
+    public  String listPage(){
+        return "listexpense";
+    }
 
+    @RequestMapping("/addGroup")
+    public  String addGroup(){
+        return "addgroup";
+    }
 
 }

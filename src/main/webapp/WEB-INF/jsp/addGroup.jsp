@@ -39,6 +39,18 @@
                     <div class="form-group">
                         <label for="date">Product Date:</label> <input type="date" class="form-control" id="date"
                             name="date" required="required">
+                        <div style="margin : 10px" >
+                        <label for="cars">Choose a car:</label>
+
+                          <select name="articles" >
+                                 <option value="select">Select an Article</option>
+                                 <option value="select">HTML select Tag</option>
+                                 <option value="head">HTML head Tag</option>
+                                 <option value="img">HTML img Tag</option>
+                                 <option value="js-fn">Functions </option>
+                                 <option value="js-events">events</option>
+                             </select>
+                         </div>
                     </div>
 
                 </div>
@@ -47,10 +59,11 @@
 
                 <div class="form-inline">
 
-                    <div class="row" >
-                        <div  align="center" style="margin-left: 15em  "   >
+                    <div class="row" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); transition: 0.3s;">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-6" align="center">
                             <br>
-                            <button type="submit" class="btn btn-primary" style="width: 100%;  ">Add
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Add
                                 Expenses</button>
                             <br> <br> <br>
                         </div>
